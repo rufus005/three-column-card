@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.2rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.card{
+    width: 220px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400px;
+    font-family: Arial, sans-serif;
+
+}
+h2{
+padding: 25px  0;
+font-size: 1.8rem
+}
+p{
+    font-size: 1rem;
+    margin-bottom: 45%;
+    line-height: 1.3;
+    opacity: 0.9;
+}
+
+button{
+ background-color: #fff;
+ color: black;
+ padding: 3px;
+ border-radius: 25px;
+ opacity: .9;
+}
+
+.card-1{
+background-color: #e38826;
+color: white;
+}
+.card-2{
+background-color:#006970;
+color: white;
+}
+.card-3{
+background-color: #004241;
+color: rgb(251, 251, 251);
+}
+
+.head{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+footer{
+    text-align: center;
+    /* position: fixed; */
+}
+
+span{
+    color: rgb(13, 136, 136);
+}
